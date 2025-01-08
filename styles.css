@@ -1,0 +1,174 @@
+/* basic set*/
+body, nav, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#home {
+    background-image: url("back_ground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+   }
+
+#about {
+    background-image: url("back.jpg");
+    background-size: 100vw 100vh;
+   }
+
+#travel {
+    background-image: url("back.jpg");
+    background-size: 100vw 100vh;
+   }
+
+#quizz {
+    background-image: url("back.jpg");
+    background-size: 100vw 100vh;
+   }
+/* style for the nav bar*/
+nav {
+    background-color: #5F9EA0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; /*to center the links horizontally*/
+    align-items: center;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.main{
+    display: flex;
+    gap: 20px; /*adds spacing between links*/
+
+}
+
+.main a {
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+    font-weight:500;
+    padding: 5px 10px;
+    transition: color 0.3s, backgroud-color 0.3s;
+    color: #F5FFFA;
+}
+
+.main a:hover {
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 30%;
+    margin-top: 50px;
+}
+
+.h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.h4 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.h1 {
+    margin-top: 30px;
+    margin-right:300px;
+    text-align: center;
+    font-family: Georgia;
+}
+
+.me {
+
+    font-family: Papyrus;
+    font-size: 20px;
+    color: #080808 ;
+    margin-right: 80px;
+    text-align: right;
+
+}
+
+.me2 {
+    margin-top: 20px;
+    font-family: Papyrus;
+    font-size: 20px;
+    color: #641e16;
+    margin-right: 80px;
+    text-align: right;
+
+}
+
+.img_motto {
+    clip-path: ellipse(50% 35%);
+    width: 20%;
+    float: left;
+    padding: 0;
+}
+
+
+.profession{
+
+    font-family: Papyrus;
+    font-size: 20px;
+    color: #080808;
+    margin-right: 80px;
+    margin-left: 380px;
+    text-align: left;
+}
+
+ul {
+    padding-left: 50px;
+  }
+
+.bottom {
+    text-align: center;
+}
+
+.small-emoji {
+    font-size: 20px;
+}
+
+.flag {
+    width: 40%;
+    clip-path: ellipse(50% 35%)
+
+    }
+
+.country {
+    font-family: Papyrus;
+    font-size: 20px;
+    width: 200px;
+}
+
+table {
+    table-layout: auto;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.feedback {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.feedback.correct {
+    color: green;
+}
+
+.feedback.incorrect {
+    color: red;
+}
+
+button {
+    margin: 5px;
+}

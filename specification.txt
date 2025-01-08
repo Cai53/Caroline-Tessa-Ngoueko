@@ -1,0 +1,22 @@
+10 HTML tags I used:
+    <img></img>
+    <div></div>
+    <strong><strong>
+    <br></br>
+    <b></b>
+    <ul></ul>
+    <li></li>
+    <p></p>
+    <footer></footer>
+    <nav></nav>
+
+5 CSS properties:
+    margin-top
+    font-family
+    font-size
+    color
+    text-align
+    clip-path
+
+I used bootstrap to style my table and my 'quizz page'.
+I also used Javascript to create dynamic buttons an alerts on my quizz page. 
